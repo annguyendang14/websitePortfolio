@@ -1,0 +1,37 @@
+.w3-theme-l5 {color:#000 !important; background-color:#f6f6f7 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#e1e1e4 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#c4c2c9 !important}
+.w3-theme-l2 {color:#000 !important; background-color:#a6a4ae !important}
+.w3-theme-l1 {color:#fff !important; background-color:#898694 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#625f6b !important}
+.w3-theme-d2 {color:#fff !important; background-color:#57545f !important}
+.w3-theme-d3 {color:#fff !important; background-color:#4c4a53 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#413f47 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#000 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f6f6f7 !important}
+.w3-theme-dark {color:#fff !important; background-color:#36353b !important}
+.w3-theme-action {color:#fff !important; background-color:#36353b !important}
+
+.w3-theme {color:#fff !important; background-color:#6c6977 !important}
+.w3-text-theme {color:#6c6977 !important}
+.w3-border-theme {border-color:#6c6977 !important}
+
+.w3-hover-theme:hover {color:#fff !important; background-color:#6c6977 !important}
+.w3-hover-text-theme {color:#6c6977 !important}
+.w3-hover-border-theme:hover {border-color:#6c6977 !important}
+
+.modalbutton{background-size: cover;}
+
+.logocenter{margin: 0; position: relative; top: 50%;  left: 50%; }
+
+.bsearchmodal{background-image: url(Image/bsearch/guiFx-opa-70.png)}
+
+.edgemodal{background-image: url(Image/edge/viewHour-aweek-opa-70.PNG)}
+
+.blackmodal{background-image: url(Image/blackhawk/space-opa-70.PNG)}
+
+.potmodal{background-image: url(Image/pottery/order-opa-70.PNG)}
+
+.webmodal{background-image: url(Image/web/BettendorfYouthBasketball-opa-70.PNG)}
+

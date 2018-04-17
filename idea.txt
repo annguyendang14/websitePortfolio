@@ -1,0 +1,15 @@
+Mobile: make the button on top float
+
+about me: elevator pitch
+
+portfolio - overlay open - 
+ - Motorcycle club
+ - HourLog
+ - website (webguild)
+ - Bsearch
+ - pottery tracking
+
+Resume - web resume with a button to download as pdf
+ - course work could be added with skill in it
+ - excude the skill part (since already in each stuff)
+

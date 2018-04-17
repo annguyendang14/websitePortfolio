@@ -1,0 +1,286 @@
+<div class="w3-container w3-padding-large" id="portfolio">
+<h2><b>My Portfolio</b></h2>
+<!--    <div class="w3-section w3-bottombar w3-padding-16">
+  <span class="w3-margin-right">Filter:</span> 
+  <button class="w3-button w3-black">ALL</button>
+  <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
+  <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
+  <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
+</div>-->
+</div>
+<div class="w3-container w3-padding">
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom w3-button w3-theme-l2 w3-round-large modalbutton bsearchmodal">
+	  <div class="w3-container" style="min-height:200px"  onclick="document.getElementById('bsearchmodal').style.display='block'" >
+		  <div class="logocenter" style="transform: translate(-50%, 0%);">
+		  <img src="Image/bsearch/bsearch.png" alt="BehaviorSearch" style="height:150px" >   
+		  <p  class="w3-xlarge" style="font-family: 'Arial', sans-serif; color: #625f6b; text-shadow: 1px 1px 2px black, 0 0 30px #f6f6f7; margin:0px"><b>BehaviorSearch</b></p>
+		  </div>
+	  </div>
+
+      
+    </div>
+      <div id="bsearchmodal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-bottom w3-white">
+          <div class="w3-container">
+            <span onclick="document.getElementById('bsearchmodal').style.display='none'" class="w3-button w3-theme-d4 w3-display-topright">&times;</span>
+            <h4 class="w3-center">Migrating BehaviorSearch’s User Interface from Swing to</h4>
+            <div class="bsearchSlide galleria w3-center">
+                <img src="Image/bsearch/guiFx.PNG">
+                <img src="Image/bsearch/flocking_modelruninfoFx.png">
+                <img src="Image/bsearch/flocking_searchalgorithmoptionsFx.png">
+                <img src="Image/bsearch/flocking_fitnessspecFx.png">
+                <img src="Image/bsearch/flocking_searchspecFx.png">
+                <img src="Image/bsearch/flocking_runoptionsdialogFx.png">
+                <img src="Image/bsearch/flocking_searchprogressplotFx.png">
+            </div>
+            <script>
+                (function() { 
+                    Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+                    Galleria.run('.bsearchSlide',{
+
+                        autoplay: 2500 // will move forward every 7 seconds
+                    });
+                }());
+            </script>
+              <p><b>Supervisor: </b>Dr. Forrest Stonedahl</p>
+              <p><b>Timespan: </b>Febuary 2016 - Febuary 2017</p>
+              <p><b>Project Type: </b>Individual research</p>
+              <p><b>Role: </b>Coder, Assistant</p>
+              <p><b>Relevent Skill: </b>Java, Swing, JavaFx, HTML, working independently, problem solving</p>
+              <p><b>Links: </b></p>
+                  <ul>
+                      <li>BehaviorSearch website: <a href="http://www.behaviorsearch.org/">www.behaviorsearch.org</a></li>
+                      <li>GitHub: <a href="https://github.com/annguyendang14/behaviorsearch">github.com/annguyendang14/behaviorsearch</a></li>
+                      
+                  </ul>
+              
+              <p><b>Poster presentation: </b> <a href="File/MigratingBehaviorSearchUserInterfacefromSwingtoJavaFX.pdf" download>Download PDF</a>     
+              </p>
+              <p><b>Abstract: </b>
+                  Agent-based models (ABMs) is a genre of computer modeling that simulates actions and interactions between individual entities (agents). ABM is widely used to simulate behavior in many fields, including biology, ecology, chemistry, physics, economics, and social science. <br />NetLogo is a well-known agent-based programming language that provides a powerful platform to build and examine ABMs. However, to fully analyze a model one must run the model many times with different parameters, which can be a very daunting task. Therefore, Dr. Forrest Stonedahl developed BehaviorSearch, a software tool to help with automating the exploration of ABMs. <br />The software interfaces with the NetLogo platform and allows the client to search for combinations of model parameter settings that will result in a specified target behavior. <br />The earlier version of BehaviorSearch uses the Swing UI library for its user interface, which has several disadvantages including: </p>
+                <ol>
+                    <li>Graphical components and controlling methods are embedded in the same code, which makes the code really long and hard to debug.</li>
+                    <li>The interface's style is dated back to Window 2000.</li>
+                    <li>Swing doesn’t support displaying charts inherently.</li>
+                    <li>Application doesn’t scale well to modern high-resolution screens.</li>
+                </ol>
+                <p>My project focused on migrating the user interface to the JavaFX library, which fixed all of the problems listed above. JavaFX allows the separation of graphical component into an .FXML file. It also supports CSS3 styling and chart display. Overall, this project modernized the look and feel of the BehaviorSearch program and improved its compatibility with newer hardware. </p>
+              
+              <br /> <br />
+              
+            
+          </div>
+        </div>
+      </div>
+    <div class="w3-third w3-container w3-margin-bottom w3-button w3-theme-l2 w3-round-large modalbutton edgemodal">
+	  <div class="w3-container" style="min-height:200px" onclick="document.getElementById('hourmodal').style.display='block'" >
+	    <div class="logocenter" style="transform: translate(-50%, 50%);">
+		  <img src="Image/edge/logo.png" alt="EdgeLog" style="" >   
+		  <p  class="w3-xlarge" style="font-family: 'Arial', sans-serif; color: #625f6b; text-shadow: 1px 1px 2px black, 0 0 30px #f6f6f7; margin:0px"><b>EDGE HourLog</b></p>
+		</div>
+	  </div>
+
+      
+    </div>
+      <div id="hourmodal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-bottom w3-white">
+          <div class="w3-container">
+            <span onclick="document.getElementById('hourmodal').style.display='none'" class="w3-button w3-theme-d4 w3-display-topright">&times;</span>
+            <h4 class="w3-center">Develop Hour Logging System for EDGE Center</h4>
+            <div class="hourSlide galleria w3-center">
+                <img src="Image/edge/User.PNG">
+                <img src="Image/edge/admin.PNG">
+                <img src="Image/edge/addhour.PNG">
+                <img src="Image/edge/viewHour-allterm.PNG">
+                <img src="Image/edge/ChangePassword.PNG">
+                <img src="Image/edge/admin-adduser.PNG">
+                <img src="Image/edge/admin-rmuser.PNG">
+                <img src="Image/edge/admin-viewhour-fullhis.PNG">
+                <img src="Image/edge/admin-viewhour-searchAJAX.PNG">
+                <img src="Image/edge/addhour-error-datelimit2.PNG">
+                <img src="Image/edge/addhour-error-overhourlimit.PNG">                
+            </div>
+            <script>
+                (function() { 
+                    Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+                    Galleria.run('.hourSlide',{
+
+                        autoplay: 2500 // will move forward every 7 seconds
+                    });
+                }());
+            </script>
+              <p><b>Supervisor: </b>Andrew Shearouse</p>
+              <p><b>Timespan: </b>May 2017 - June 2017</p>
+              <p><b>Project Type: </b>Internship project</p>
+              <p><b>Role: </b>Coder</p>
+              <p><b>Relevent Skill: </b>HTML, CSS, PHP, MySQL, AJAX, working independently, problem solving</p>
+              <p><b>Links: </b></p>
+                  <ul>
+                      <li>Website: <a href="http://webgeeksrus.com/test/hour-log/">webgeeksrus.com/test/hour-log</a></li>
+                      <li>GitHub: <a href="https://github.com/annguyendang14/EDGECenterHourLog">github.com/annguyendang14/EDGECenterHourLog</a></li>
+                      
+                  </ul>
+              
+              <p><b>Abstract: </b>
+                  The EDGE Center provide an extra curriculum opportunity for Augustana students in all major to learn graphic design, website development, marketing, event planning, etc. Because the work is volunteer based, the center cannot use the Augustana's time clock system to keep track of students' volunteer hours here. <br />
+                  Because of a large number of students working in the EDGE Center, as well as the fact that there only two full-time staffs, it's hard to keep track of students' engagement at the center. Therefore, when employers call to verify students' participation, with no record to refer to, the staffs would need to guess to answer employers' questions. <br />
+                  As part of my internship at the Center, I developed a basic hour log system that allows students to log their hours and the staffs to view the hour later.
+              
+              </p><br /> <br />
+              
+            
+          </div>
+        </div>
+      </div>
+    <div class="w3-third w3-container w3-margin-bottom w3-button w3-theme-l2 w3-round-large modalbutton blackmodal">
+	  <div class="w3-container" style="min-height:200px" onclick="document.getElementById('blackmodal').style.display='block'" >
+	    <div class="logocenter" style="transform: translate(-50%, 10%);">
+		  <img src="Image/blackhawk/logo_blackhawk_blue_border_200x200.png" alt="blackhawk" style="height:100px" >   
+		  <p  class="w3-xlarge" style="font-family: 'Arial', sans-serif; color: #625f6b; text-shadow: 1px 1px 2px black, 0 0 30px #f6f6f7; margin:0px"><b>Vendor Space<br /> Reservation App</b></p>
+		</div>
+	  </div>      
+    </div>
+      <div id="blackmodal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-bottom w3-white">
+          <div class="w3-container">
+            <span onclick="document.getElementById('blackmodal').style.display='none'" class="w3-button w3-theme-d4 w3-display-topright">&times;</span>
+            <h4 class="w3-center">Develop Space Reservation System for Blackhawk Motorcycle Club</h4>
+            <div class="blackSlide galleria w3-center">
+                <img src="Image/blackhawk/user-home.PNG">
+                <img src="Image/blackhawk/user-spaceview.PNG">
+                <img src="Image/blackhawk/user-spaceview.PNG">
+                <img src="Image/blackhawk/user-cartview.PNG">
+                <img src="Image/blackhawk/user-orderview.PNG">
+                <img src="Image/blackhawk/user-profileview.PNG">
+                <img src="Image/blackhawk/user-changepass.PNG">
+                <img src="Image/blackhawk/admin-userview.PNG">
+                <img src="Image/blackhawk/admin-userprofileview.PNG">
+                <img src="Image/blackhawk/admin-orderview.PNG">
+                <img src="Image/blackhawk/admin-order-view.PNG">                
+            </div>
+            <script>
+                (function() { 
+                    Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+                    Galleria.run('.blackSlide',{
+
+                        autoplay: 2500 // will move forward every 7 seconds
+                    });
+                }());
+            </script>
+              <p><b>Supervisor: </b>Andrew Shearouse</p>
+              <p><b>Timespan: </b>June 2017 - recent</p>
+              <p><b>Project Type: </b>Internship project</p>
+              <p><b>Role: </b>Coder, Client consultant</p>
+              <p><b>Relevent Skill: </b>Laravel, HTML, CSS, PHP, MySQL, AJAX, Bootstrap, working independently, problem solving</p>
+              <p><b>Links: </b> </p>
+                  <ul>
+                      <li>Website: Coming soon<!--<a href="http://webgeeksrus.com/test/hour-log/">webgeeksrus.com/test/hour-log</a></li>-->
+                      <li>GitHub: <a href="https://github.com/annguyendang14/BlackHawkMotorcycle">github.com/annguyendang14/BlackHawkMotorcycle</a></li>
+                      
+                  </ul>
+              
+              <p><b>Abstract: </b>
+                  The Blackhawk Motorcycle Club hosting a conference every year for the member to swap or sell parts of motorcycles. Many vendor spaces are leased out for vendors at the conference. <br />
+                  The client is in need for a new reservation system for their conference's spaces. After meeting with the client, the requirement is as follow: </p>
+                  <ul>
+                      <li>Develop admin interface as well as the registration system. </li>
+                      <li>For part of the year, the system is only available to vendors who were at the previous year’s rally, and those vendors can only reserve the spaces that they had the previous year. </li>
+                      <li>At a particular date, the system will then open up; all spaces that have not yet been reserved go up for grabs, and new vendors can set up accounts and reserve any of the spaces that are left.</li>
+                      <li>Vendors from the past year’s rally can only reserve the space that they had in 2016 until the date when the system opens up; then they can add additional spaces.</li>
+                      <li>Admin can add/edit spaces, add/deactivate/activate users, edit orders, and create order on vendors' behalf.</li>
+                  </ul>
+                  <p>The system is developed with Laravel, MySQL, and Bootstrap.</p>
+              
+             <br /> <br />
+              
+            
+          </div>
+        </div>
+      </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom w3-button w3-theme-l2 w3-round-large modalbutton potmodal">
+	  <div class="w3-container" style="min-height:200px" onclick="document.getElementById('potmodal').style.display='block'" >
+	    <div class="logocenter" style="transform: translate(-50%, 50%);">
+		  <p  class="w3-xxlarge" style="font-family: 'Arial', sans-serif; color: #625f6b; text-shadow: 1px 1px 2px black, 0 0 30px #f6f6f7; margin:0px"><b>Sondahl Pottery</b></p>
+		  <p  class="w3-xlarge" style="font-family: 'Arial', sans-serif; color: #625f6b; text-shadow: 1px 1px 2px black, 0 0 30px #f6f6f7; margin:0px"><b>Order Directory</b></p>
+		</div>
+	  </div>      
+    </div>
+     <div id="potmodal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-bottom w3-white">
+          <div class="w3-container">
+            <span onclick="document.getElementById('potmodal').style.display='none'" class="w3-button w3-theme-d4 w3-display-topright">&times;</span>
+            <h4 class="w3-center">Develop Order Directory for Sondahl Pottery</h4>
+            <div class="potSlide galleria w3-center">
+                <img src="Image/pottery/main.PNG">
+                <img src="Image/pottery/createOrder.PNG">
+                <img src="Image/pottery/viewOrder.PNG">
+                <img src="Image/pottery/editOrder.PNG">
+                <img src="Image/pottery/addCustomer-confirm.PNG">
+                <img src="Image/pottery/createCustomer.PNG">
+                <img src="Image/pottery/viewCustomer.PNG">
+                <img src="Image/pottery/editCustomer.PNG">
+                <img src="Image/pottery/About.PNG">
+                            
+            </div>
+            <script>
+                (function() { 
+                    Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+                    Galleria.run('.potSlide',{
+
+                        autoplay: 2500 // will move forward every 7 seconds
+                    });
+                }());
+            </script>
+              <p><b>Supervisor: </b>Dr. Forrest Stonedahl</p>
+              <p><b>Co-author: </b>Kelsey Self, Amiao Gao, and Taylor Vaughan</p>
+              <p><b>Timespan: </b>August 2015 - Octorber 2015</p>
+              <p><b>Project Type: </b>Sofware Development class project</p>
+              <p><b>Role: </b>Coder, Client consultant</p>
+              <p><b>Relevent Skill: </b>Java, JavaFx, working in group, self learning, problem solving</p>
+              <p><b>Links: </b> GitHub: <a href="https://github.com/annguyendang14/PotteryDirectory">github.com/annguyendang14/PotteryDirectory</a></p>
+              <p><b>Abstract: </b> The Sondahl Pottery's owner needed a new order directory application (he had used Exel for this). Working in teams of 4-5, students in CSC 285 will develop the new application for the client. </p>
+              <p><b>Use Case: </b>Bobby sits at a computer and receives an email from a client. He opens the software program PotteryDirectory. When the program opens a GUI is generated. He records how he received an order, the date, the client's name, clients address, their phone, email, payment information, the due date, he also types in what the client wants. He saves this information and creates the item. Once it is created, he finds the client's information and he generates a shipping label, puts it in the box and sends it recording the ship date.</p>
+              <p><b>User stories: </b>As an owner, I can store any customer information independently with the order so that I can reuse the information for the next order</p>
+                  
+             <br /> <br />
+              
+            
+          </div>
+        </div>
+      </div>
+    <div class="w3-third w3-container w3-margin-bottom w3-button w3-theme-l2 w3-round-large modalbutton webmodal">
+	  <div class="w3-container" style="min-height:200px" onclick="document.getElementById('id01').style.display='block'" >
+	    <div class="logocenter" style="transform: translate(-50%, 120%);">
+		  <p  class="w3-xxlarge" style="font-family: 'Arial', sans-serif; color: #625f6b; text-shadow: 1px 1px 2px black, 0 0 30px #f6f6f7; margin:0px"><b>Web Design</b></p>
+		  
+		</div>
+	  </div>
+
+      
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom w3-button w3-theme-l2 w3-round-large modalbutton moremodal">
+	  <div class="w3-container" style="min-height:200px" onclick="document.getElementById('id01').style.display='block'" >
+	    <div class="logocenter" style="transform: translate(-50%, 120%);">
+		  <p  class="w3-xxlarge" style="font-family: 'Arial', sans-serif; color: #625f6b; text-shadow: 1px 1px 2px black, 0 0 30px #f6f6f7; margin:0px"><b>Other Works</b></p>
+		  
+		</div>
+	  </div>
+
+      <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-white">
+          <div class="w3-container">
+            <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-theme-d4 w3-display-topright">&times;</span>
+            <p>Some text. Some text. Some text.</p>
+            <p>Some text. Some text. Some text.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
